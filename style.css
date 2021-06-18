@@ -1,0 +1,98 @@
+*{
+    font-family: Rimouski;
+}
+
+body{
+    background-color: indigo;
+}
+.container{
+
+    width: 300px;
+    height: 440px;
+    background-color: whitesmoke;
+    display: block;
+    margin:  0 auto;
+    border-radius: 10 px;
+    padding-bottom: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.app-title{
+    width: 300px;
+    height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+
+    border-radius: 10px 10px 0 0 ;
+}
+.app-title p{
+    text-align: center;
+    padding: 15px;
+    margin:  0 auto;
+    
+    font-family: 'Courier New', Courier, monospace;
+    color: purple;
+    font-size: 1.2em;
+    font-size: 26px;
+    
+}
+.notifications {
+    background-color: maroon;
+    display: none;
+}
+
+.notifications p {
+background-color: lightseagreen;
+font-size: 1.2em;
+margin: 0;
+text-align: center;
+padding: 10px 0;
+
+}
+
+.weather-container{
+    width: 300px;
+    height: 460px;
+    background-color: burlywood;
+
+}
+.weather-icon{
+    width: 300px;
+    height: 128px;
+}
+.weather-icon img{
+    display: block;
+    margin:  0 auto;
+}
+.temperature-value{
+    width: 300px;
+    height: 60px;
+}
+.temperature-value p{
+    padding: 0;
+    margin: 0;
+    color: purple;
+    font-size: 4em;
+    text-align: center;
+    cursor: pointer;
+}
+.temperature-value span{
+    color:burlywood;
+    font-size: 0.5em;
+    text-align: center;
+}
+.temperature-description p{
+    padding: 8px;
+    margin: 0;
+    color:brown;
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+.location p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color:darkorange;
+    text-align: center;
+    font-size: 30px;
+}
